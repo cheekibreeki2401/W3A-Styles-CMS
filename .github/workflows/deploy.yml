@@ -21,7 +21,7 @@ jobs:
       - name: Deploy via SSH
         run: |
           ssh -o StrictHostKeyChecking=no bitnami@13.239.234.32 << 'EOF'
-            cd /opt/bitnami/wordpress/wp-content/themes/your-child-theme-name
+            cd /opt/bitnami/wordpress/wp-content/themes/
             git pull origin main
             sudo chown -R bitnami:daemon .
           EOF

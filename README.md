@@ -6,7 +6,7 @@ You can contribute to U3A-Style by first cloning this guthub repository. To do s
 > git clone [insert Github URL here]
 
 Then, set up a local WordPress environment. It is recommended to do it through a docker container/image. There are many handy instructions on how to do this on the web. Once your Docker image is set up, you can use the cloned repository to insert content directly into your image and work on it via graphical methods or your CLI. All you need to do once you are satisfied with the changes, you can push these changes to this repository again. To do so, set up the github repository as the remote respository of these files using:
-> git remote add origin [insert Github URL here]
+> git remote add origin [https://github.com/cheekibreeki2401/W3A-Styles-CMS]
 
 And to push these changes use:
 > git push origin main
@@ -27,4 +27,5 @@ This is the development process to change, update or otherwise modify this theme
 
 ## Theme development
 This is a change log of what has been added to the site theme. Please use this part of the README as a list of the details of the theme.
+- 12\05\2025: Updated theme header and footer to suit the website better. Also added in a new pattern for three pictures with descriptions and links called "Activity Preview Grid".
 

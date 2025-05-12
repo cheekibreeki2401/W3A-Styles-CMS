@@ -27,5 +27,5 @@ This is the development process to change, update or otherwise modify this theme
 
 ## Theme development
 This is a change log of what has been added to the site theme. Please use this part of the README as a list of the details of the theme.
-- 12\05\2025: Updated theme header and footer to suit the website better. Also added in a new pattern for three pictures with descriptions and links called "Activity Preview Grid".
+- 12\05\2025: Updated theme header and footer to suit the website better. Also added in a new pattern for three pictures with descriptions and links called "Activity Preview Grid". Set up GitHub and LightSail instance to instantly pull any changes from the main repo.
 

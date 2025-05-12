@@ -3,15 +3,15 @@
 U3A-Style is a wordpress theme designed specifically for the website for University of the Third Age as designated here: [To insert URL of U3A Website here]. 
 ## I want to contribute to U3A-Style, how do I do it?
 You can contribute to U3A-Style by first cloning this guthub repository. To do so just type in:
-> git clone [insert Github URL here]
+> git clone https://github.com/cheekibreeki2401/W3A-Styles-CMS
 
 Then, set up a local WordPress environment. It is recommended to do it through a docker container/image. There are many handy instructions on how to do this on the web. Once your Docker image is set up, you can use the cloned repository to insert content directly into your image and work on it via graphical methods or your CLI. All you need to do once you are satisfied with the changes, you can push these changes to this repository again. To do so, set up the github repository as the remote respository of these files using:
-> git remote add origin [https://github.com/cheekibreeki2401/W3A-Styles-CMS]
+> git remote add origin https://github.com/cheekibreeki2401/W3A-Styles-CMS
 
-And to push these changes use:
+And to push these changes use at the top level of the repository:
 > git push origin main
 
-And these changes are then pushed to the main website.
+And these changes are then pushed to the main website and the github repository.
 
 ## How?
 TODO: FILL THIS SECTION IN

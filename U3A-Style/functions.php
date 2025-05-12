@@ -9,3 +9,34 @@ function childtheme_enqueue_styles() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 }
 add_action( 'wp_enqueue_scripts', 'childtheme_enqueue_styles' );
+
+function u3a_register_activity_post_type() {
+  register_post_type('activity', [
+    'labels' => [
+      'name' => __('Activities'),
+      'singular_name' => __('Activity')
+    ],
+    'public' => true,
+    'has_archive' => true,
+    'rewrite' => ['slug' => 'activities'],
+    'show_in_rest' => true,
+    'supports' => ['title', 'editor', 'excerpt', 'thumbnail']
+  ]);
+}
+add_action('init', 'u3a_register_activity_post_type');
+
+function u3a_custom_activity_excerpt($excerpt, $post) {
+    if ($post->post_type !== 'activity') {
+        return $excerpt;
+    }
+    $content = apply_filters('the_content', $post->post_content);
+    $content = wp_strip_all_tags($content);
+    $cutoff = stripos($content, 'Schedule');
+
+    if ($cutoff !== false) {
+        return trim(substr($content, 0, $cutoff));
+    } else {
+        return wp_trim_words($content, 30, '...');
+    }
+}
+add_filter('get_the_excerpt', 'u3a_custom_activity_excerpt', 10, 2);

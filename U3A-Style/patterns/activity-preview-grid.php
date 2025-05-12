@@ -18,18 +18,18 @@
 
     <!-- wp:column -->
     <div class="wp-block-column">
-      <!-- wp:image {"sizeSlug":"medium","linkDestination":"custom","href":"/activities/stem-classes"} -->
+      <!-- wp:image {"sizeSlug":"medium","linkDestination":"custom","href":"/activities/philosophy-classes"} -->
       <figure class="wp-block-image size-medium">
-        <a href="/activities/stem-classes"><img src="<?php echo get_theme_file_uri( 'assets/John_STEM_table.jpg' ); ?>" alt="STEM"></a>
+        <a href="/activities/philosophy-classes"><img src="<?php echo get_theme_file_uri( 'assets/philosophy group.jpeg' ); ?>" alt="philosophy"></a>
       </figure>
       <!-- /wp:image -->
 
       <!-- wp:heading {"level":4} -->
-      <h4>STEM</h4>
+      <h4>Philosophy Sessions</h4>
       <!-- /wp:heading -->
 
       <!-- wp:paragraph -->
-      <p>Learn about the core of all things natural and stimulate your mind with our Science, Technology, Engineering and Mathematics classes</p>
+      <p>Learn about the core of human nature in a friendly environment with casual debates and exploration of our minds and personal philosophy</p>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:column -->

@@ -38,7 +38,7 @@
     <div class="wp-block-column">
       <!-- wp:image {"sizeSlug":"medium","linkDestination":"custom","href":"/activities/dancing-class"} -->
       <figure class="wp-block-image size-medium">
-        <a href="/activities/dancing-class"><img src="<?<?php echo get_stylesheet_directory_uri(). '/assets/dancing.JPG'; ?> " alt="dancing"></a>
+        <a href="/activities/dancing-class"><img src="<?php echo get_stylesheet_directory_uri(). '/assets/dancing.JPG'; ?> " alt="dancing"></a>
       </figure>
       <!-- /wp:image -->
 

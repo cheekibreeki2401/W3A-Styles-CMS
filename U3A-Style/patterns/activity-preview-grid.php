@@ -20,7 +20,7 @@
     <div class="wp-block-column">
       <!-- wp:image {"sizeSlug":"medium","linkDestination":"custom","href":"/activities/philosophy-classes"} -->
       <figure class="wp-block-image size-medium">
-        <a href="/activities/philosophy-classes"><img src="<?php echo get_stylesheet_directory_uri(); ?>'assets/philosophy%20group.jpeg'" alt="philosophy"></a>
+        <a href="/activities/philosophy-classes"><img src="<?php echo get_stylesheet_directory_uri(); ?> . 'assets/philosophy%20group.jpeg'" alt="philosophy"></a>
       </figure>
       <!-- /wp:image -->
 
@@ -38,7 +38,7 @@
     <div class="wp-block-column">
       <!-- wp:image {"sizeSlug":"medium","linkDestination":"custom","href":"/activities/dancing-class"} -->
       <figure class="wp-block-image size-medium">
-        <a href="/activities/dancing-class"><img src="<?<?php echo get_stylesheet_directory_uri(); ?> 'assets/dancing.JPG'" alt="dancing"></a>
+        <a href="/activities/dancing-class"><img src="<?<?php echo get_stylesheet_directory_uri(); ?> . 'assets/dancing.JPG'" alt="dancing"></a>
       </figure>
       <!-- /wp:image -->
 
@@ -56,7 +56,7 @@
     <div class="wp-block-column">
       <!-- wp:image {"sizeSlug":"medium","linkDestination":"custom","href":"/activities/language-cafe"} -->
       <figure class="wp-block-image size-medium">
-        <a href="/activities/language-cafe"><img src="<?php echo get_stylesheet_directory_uri(); ?> 'assets/FrenchGroup4.JPG'" alt="Language café"></a>
+        <a href="/activities/language-cafe"><img src="<?php echo get_stylesheet_directory_uri(); ?> . 'assets/FrenchGroup4.JPG'" alt="Language café"></a>
       </figure>
       <!-- /wp:image -->
 

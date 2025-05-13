@@ -12,7 +12,7 @@
 
   <!-- wp:image {"align":"center","sizeSlug":"large"} -->
   <figure class="wp-block-image aligncenter size-large">
-    <img src="<?php echo get_stylesheet_directory_uri(); ?> 'assets/FridayTalk_SuzieDancenorth.jpg'" alt="Activity image" />
+    <img src="<?php echo get_stylesheet_directory_uri(); ?> . 'assets/FridayTalk_SuzieDancenorth.jpg'" alt="Activity image" />
   </figure>
   <!-- /wp:image -->
 

@@ -9,14 +9,18 @@
     text-transform: uppercase;
 }
 
-.wp-block-post-template.is-layout-grid > * {
-  padding: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background-color: #fff;
-  box-sizing: border-box;
+.wp-block-post-template.is-layout-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
-.wp-block-post-template.is-layout-grid {
-  gap: 2rem;
+.wp-block-post-template.is-layout-grid > * {
+  padding: 1rem;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  box-sizing: border-box;
 }

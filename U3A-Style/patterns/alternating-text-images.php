@@ -15,7 +15,7 @@
     <div class="wp-block-column" style="width:50%">
       <!-- wp:image {"sizeSlug":"large"} -->
       <figure class="wp-block-image size-large">
-        <img src="<?php echo get_stylesheet_directory_uri( 'assets/FridayTalks.JPG' ); ?>" alt="Community gathering" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>'assets/FridayTalks.JPG'" alt="Community gathering" />
       </figure>
       <!-- /wp:image -->
     </div>
@@ -53,7 +53,7 @@
     <div class="wp-block-column" style="width:50%">
       <!-- wp:image {"sizeSlug":"large"} -->
       <figure class="wp-block-image size-large">
-        <img src="<?php echo get_stylesheet_directory_uri( 'assets/learning.JPG' ); ?>" alt="Learning activity" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?> 'assets/learning.JPG'" alt="Learning activity" />
       </figure>
       <!-- /wp:image -->
     </div>

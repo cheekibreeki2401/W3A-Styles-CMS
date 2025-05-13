@@ -13,3 +13,15 @@ body {
     font-size: 2.5rem;
     text-transform: uppercase;
 }
+
+.wp-block-post-template.is-layout-grid > * {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.wp-block-post-template.is-layout-grid {
+  gap: 2rem;
+}

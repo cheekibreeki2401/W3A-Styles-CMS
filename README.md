@@ -32,4 +32,5 @@ This section will document any signifcant changes that the U3A-Styles theme has 
 * activity-preview-grid pattern that allows for three condensed paragraphs and pictures with links that can be modified.
 * alternating-text-images is a 2x2 grid pattern that has text one one side and a picture on another, alternating back and forth. Can be added multiple times to increase length of the chain.
 * activity-content is a pattern that creates a default page layout with a picture, a heading with text and dot points with date, time and locations.
-* functions.php has been modified to include a custom post type called "activities" which is used as an archive of "activity" posts which can read posts with the activity-content pattern to display a preview and is used in another pattern to organise these activities in the archive in a productive and easy to read way.
+* functions.php has been modified to include a custom post type called "activities" which is used as an archive of "activity" posts which can read posts with the activity-content pattern to display a preview and is used in another pattern to organise these activities in the archive in a productive and easy to read way in a responsive grid pattern.
+* By default, the header will be sticky.

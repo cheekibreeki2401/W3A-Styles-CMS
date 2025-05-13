@@ -4,7 +4,7 @@ This project is to create a website for the U3A (University of 3rd Age) organisa
 ## Basic workflow
 1. Load up docker image (Explained further in Local environment section of report) containing the WordPress site contents
 2. Open the WordPress admin page and open a page (or create a page) that a new theme change will be used in
-3. Using a local editor (In my case VIM), change any relevant files that are required for the latest change in theme (theme.js, html files in parts, php files in patterns or templates are usually the files that require editing).
+3. Using a local editor (In my case VIM), change any relevant files that are required for the latest change in theme (style.css, theme.json, html files in parts, php files in patterns or templates are usually the files that require editing).
 4. Review changes in local environment version of WordPress, repeat stage 3 until satisfied.
 5. Commit changes to git and then push to github repository.
 6. Review online version of site to confirm changes have been pushed to live site and edit pages as required.

@@ -49,3 +49,23 @@ header.wp-block-template-part {
   top: 0;
   z-index: 9999;
 }
+
+body{
+  background-color: #bef8fa;
+}
+
+.activity-column-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  padding: 5px;
+}
+.activity-column-link:hover {
+  background: #f6e27f;
+  text-decoration: none;
+}
+
+.activity-column-more:hover {
+  background: #f6e27f;
+  text-decoration: none;
+}

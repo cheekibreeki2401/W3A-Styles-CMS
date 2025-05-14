@@ -22,6 +22,11 @@
           "name": "White",
           "slug": "white",
           "color": "#ffffff"
+        },
+        {
+          "name": "Sky Blue",
+          "slug": "sky-blue",
+          "color": "#bef8fa"
         }
       ],
       "defaultDuotone": [],

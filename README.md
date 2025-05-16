@@ -17,6 +17,7 @@ There are many ways to develop a child theme further:
 * Make a new page template. A page template is a series of blocks that can be used as a jumping off point for the rest of the site's pages. It can also be used so that the only focus of a page is what you require of a page (I.E. Headers and footers can be added to the template so that it no longer needs to be thought about AND when loading a new page, it will only display the main content bringing the focus of it as a designer to the important parts of a page).
 * Make a part that can be referenced by patterns and templates. Simply enough, parts are html files that can be referenced elsewhere to build a page. Headers and footer is what this theme primarily uses.
 * Edit the theme.json file which contains instructions for smaller aspects of the website including a colour palette, default values for certain HTML tags (Such as H1, p, a etc.) and custom font families. 
+* **NOTE**: Certain theme changes will result in a display of "Restore this block" when editing the site in wordpress, especially if wrapped in a link. This is normal. Do not click "restore this block" or else certain parts of the block are removed (Such as links). Instead, you can change the content directly from the theme.
 
 ## The development process
 This is the development process to change, update or otherwise modify this theme. Any violations of this process will result in a rollback of changes and banning from the repository.

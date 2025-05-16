@@ -31,13 +31,20 @@ function u3a_custom_activity_excerpt($excerpt, $post) {
         return $excerpt;
     }
     $content = apply_filters('the_content', $post->post_content);
-    $content = wp_strip_all_tags($content);
-    $cutoff = stripos($content, 'Schedule');
+    $pattern = '/<h2[^>]*>What to Expect:?\s*<\/h2>\s*<p>(.*?)<\/p>/is';
 
-    if ($cutoff !== false) {
-        return trim(substr($content, 0, $cutoff));
+    if (preg_match($pattern, $content, $matches)) {
+        $paragraph_text = wp_strip_all_tags($matches[1]);
+        return 'What to Expect: ' . $paragraph_text;
     } else {
-        return wp_trim_words($content, 30, '...');
+        $content_plain = wp_strip_all_tags($content);
+        $cutoff = stripos($content_plain, 'Schedule');
+
+        if ($cutoff !== false) {
+            return trim(substr($content_plain, 0, $cutoff));
+        } else {
+            return wp_trim_words($content_plain, 30, '...');
+        }
     }
 }
 add_filter('get_the_excerpt', 'u3a_custom_activity_excerpt', 10, 2);

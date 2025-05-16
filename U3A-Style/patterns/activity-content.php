@@ -17,7 +17,7 @@
   <!-- /wp:image -->
 
   <!-- wp:heading {"level":2} -->
-  <h2>What to Expect</h2>
+  <h2>What to Expect: </h2>
   <!-- /wp:heading -->
 
   <!-- wp:paragraph -->

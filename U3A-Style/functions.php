@@ -35,7 +35,7 @@ function u3a_custom_activity_excerpt($excerpt, $post) {
 
     if (preg_match($pattern, $content, $matches)) {
         $paragraph_text = wp_strip_all_tags($matches[1]);
-        return 'What to Expect: ' . $paragraph_text;
+        return $paragraph_text;
     } else {
         $content_plain = wp_strip_all_tags($content);
         $cutoff = stripos($content_plain, 'Schedule');

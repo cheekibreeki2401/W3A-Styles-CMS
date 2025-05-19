@@ -23,6 +23,7 @@ There are many ways to develop a child theme further:
 This is the development process to change, update or otherwise modify this theme. Any violations of this process will result in a rollback of changes and banning from the repository.
 1. Download latest changes to the theme (After setting up local repository and defining the remote repository as this one)  by using
 > git pull origin main
+**NOTE**: If using for the first time, just use the above command in your CLI of your choice (GitCli/Powershell for windows for example).
 2. Develop any changes to the theme as required.
 3. Once satisfied with results on the local machine, push the changes to the remote repository
 4. Check the production website ([http://13.239.234.32/home]) to see if your theme has successfully crossed over by loading a page and adding the part (**NOTE**: When editing the theme, blocks such as **patterns** will require a clear of the cache (Server and browser) or a hard refresh to display. If it does not display after those steps, the block you were working will need to be readded to the page to have the updated theme.)
